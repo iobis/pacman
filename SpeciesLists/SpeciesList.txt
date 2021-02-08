@@ -1,0 +1,311 @@
+scientificName_original	scientificNameAuthorship_original	identificationQualifier_original	vernacularName	taxonRemarks	riskLevel	references	AphiaID	scientificName	scientificNameAuthorship	AphiaID_accepted	scientificName_accepted	scientificNameAuthorship_accepted
+Undaria pinnatifida			Japanese kelp	U. pinnatifida is highly invasive  growing rapidly. Large distribution ranges  also Queensland mentioned as a possible area for invasion. However  currently distributed mainly in temperate waters  and colder temperatures may be needed at some point of the year for it to survive.	5	Australian Priority list	145721	Undaria pinnatifida	(Harvey) Suringar, 1873	145721	Undaria pinnatifida	(Harvey) Suringar, 1873
+Eriocheir sinensis			Chinese mitten crab	E. sinensis has had significant impacts in freshwater and brackish environments. Also impacts infrastructure and industry including blocking of cooling systems of power plants as well as damage to local fisheries. Has the potential to harm human health  as it is an intermediate host for lung fluke and can bioaccumulate toxins and heavy metals Has wide temperature tolerances (reproductive temperature range is 9 to 30 °C).	5	Australian Priority list	107451	Eriocheir sinensis	H. Milne Edwards, 1853	107451	Eriocheir sinensis	H. Milne Edwards, 1853
+Rhithropanopeus harrisii			Harris mud crab	It is known to affect prey species richness and diversity negatively  altering prey population size structure. Rhithropanopeus harrisii is native to the Atlantic coast of the Americas from New Brunswick to northeast Brazil. It is a highly successful invader  having established in 20 countries across 45 degrees of latitude. Has wide temperature tolerances (optimum temperature range 15 to 25 °C)	5	Australian Priority list	107414	Rhithropanopeus harrisii	(Gould, 1841)	107414	Rhithropanopeus harrisii	(Gould, 1841)
+Mytilopsis sallei			black-striped false mussel	M. sallei has serious impacts on biodiversity  by outcompeting and excluding native species and by modifying habitat through its dense settlement. Native to the tropical central Atlantic Oceanthe Caribbean Seaand has become established in Fiji (!?)	5	Australian Priority list	397147	Mytilopsis sallei	(Récluz, 1849)	397147	Mytilopsis sallei	(Récluz, 1849)
+Perna Perna			Brown mussel	P. perna forms dense aggregations  where densities of 27 200 individuals per square metre have been recorded. Native to tropical and subtropical waters of Africa.	5	Australian Priority list						
+Perna viridis			Asian green mussel	The impacts of P. viridis include altered biodiversity by outcompeting or overgrowing native species  changes in community structure and trophic relationships and habitat modification. It Perna viridis is an invasive mussel  native to the Arabian Sea  China  India  Thailand  Malaysia and the Philippines.	5	Australian Priority list	367822	Perna viridis	(Linnaeus, 1758)	367822	Perna viridis	(Linnaeus, 1758)
+Arcuatula senhousia			Asian bag mussel	Prefers intertidal to subtidal soft substrates (e.g. sediments).Tolerates wide variety of temperatures and salinities. Native to the waters of tropical and temperate Asia.	5	Australian Priority list	505946	Arcuatula senhousia	(Benson, 1842)	505946	Arcuatula senhousia	(Benson, 1842)
+Magallana bilineata			Black Scar Oyster	The black scar oyster grows attached to hard objects in brackish shallow intertidal or subtidal waters at depths of 0 to 300 metres. Black scar oysters are found abundantly in the western Pacific Ocean  from the Philippines to Tonga and Fiji  and is an economically important species cultured extensively in the Philippines.	5	Australian Priority list	836036	Magallana bilineata	(Röding, 1798)	836036	Magallana bilineata	(Röding, 1798)
+Didemnum perlucidum			White colonial sea squirt	Potential to be highly invasive due to its rapid reproductive output. Fast growing and can occupy disturbed habitats. Can overgrow native species.   Subtropical to tropical.	5	Australian Priority list	212506	Didemnum perlucidum	Monniot F., 1983	212506	Didemnum perlucidum	Monniot F., 1983
+Sargassum horneri			Brown macroalga			Australian Priority list	494853	Sargassum horneri	(Turner) C.Agardh, 1820	494853	Sargassum horneri	(Turner) C.Agardh, 1820
+Charybdis japonica			Asian paddle crab			Australian Priority list	208836	Charybdis (Charybdis) japonica	(A. Milne-Edwards, 1861)	208836	Charybdis (Charybdis) japonica	(A. Milne-Edwards, 1861)
+Hemigrapsus takanoi			Takanos shore crab			Australian Priority list	389288	Hemigrapsus takanoi	Asakura & Watanabe, 2005	389288	Hemigrapsus takanoi	Asakura & Watanabe, 2005
+Petrolisthes elongatus			New Zealand porcelain crab	NZ + South AUS  not tropical		Australian Priority list	396708	Petrolisthes elongatus	(H. Milne Edwards, 1837)	396708	Petrolisthes elongatus	(H. Milne Edwards, 1837)
+Asterias amurensis			northern Pacific Seastar	An invasive starfish  native to China  North Korea  South Korea  Russia and Japan. A. amurensis is a generalist predator impacting soft sediment communities  particularly bivalve populations. The species has had significant impacts on aquaculture and recreational activities due to predation on native and commercially farmed shellfish. Prefers colder environments  possibly not a risk for tropical waters.	5	Australian Priority list	254497	Asterias amurensis	Lutken, 1871	254497	Asterias amurensis	Lutken, 1871
+Carcinus maenas			European green shore crab	C. maenas impacts a range of benthic bivalves. Native to Europe and North Africa. Mostly temperate distribution  possibly not a risk for tropical waters.	5	Australian Priority list	107381	Carcinus maenas	(Linnaeus, 1758)	107381	Carcinus maenas	(Linnaeus, 1758)
+Perna canaliculus			New Zealand green-lipped mussel	native to New Zealand. Temperature tolerance of this species is between 10 °C and 19 °C  not a risk for Fiji.	5	Australian Priority list	397169	Perna canaliculus	(Gmelin, 1791)	397169	Perna canaliculus	(Gmelin, 1791)
+Amathia verticillata			Spaghetti bryozoan	First described from the Mediterranean Sea and now widespread in tropical  subtropical  and warm-temperate waters. Established in Hawaii. Colonies of A. verticillata have had negative impacts by clogging shrimp fishing gear  fouling cultured pearl oysters  and overgrowing and killing eelgrass.	5	Hawaiian most impactful	851581	Amathia verticillata	(delle Chiaje, 1822)	851581	Amathia verticillata	(delle Chiaje, 1822)
+Gracilaria salicornia			Gorilla Ogo	Widespread in west Pacific  but invasive in Hawaii. Gracilaria salicornia is one of the most successful invasive algae on reef flats. Possibly native to Fiji?	5	Hawaiian most impactful	211549	Gracilaria salicornia	(C.Agardh) E.Y.Dawson, 1954	211549	Gracilaria salicornia	(C.Agardh) E.Y.Dawson, 1954
+Hypnea musciformis			Hookweed	Hypnea musciformis is a highly opportunistic invader well known for its large floating blooms in coastal Maui. Large biomass washes up on the beaches of Oahu and Maui. Already present in Fiji? Inshore coastlines and reefs in the tropical and subtropical eastern  central and western Pacific are potentially susceptible to invasion by H. musciformis.	5	Hawaiian most impactful	145634	Hypnea musciformis	(Wulfen) J.V.Lamouroux, 1813	145634	Hypnea musciformis	(Wulfen) J.V.Lamouroux, 1813
+Cassiopea		sp.	Upside-down jellyfish	Globally distributed in the tropics  introduced to Hawaii  already present in Fiji	5	Hawaiian most impactful	135253	Cassiopea	Péron & Lesueur, 1810	135253	Cassiopea	Péron & Lesueur, 1810
+Osteomugil engeli			Kanda mullet	Taking over native mullets in Hawaii	5	Hawaiian most impactful	1043470	Osteomugil engeli	(Bleeker, 1858)	1043470	Osteomugil engeli	(Bleeker, 1858)
+Batis Maritima			Pickleweed	Native to the Americas  invasive in Hawaii with mangroves  where they can destroy habitats of local species.	5	Hawaiian most impactful						
+Avrainvillea amadelpha			Leather mudweed	In the sandy  shallow habitats of Mamala Bay in Oahu  Avrainvillea amadelpha has formed thick communities that cover the substrate  invading the reef environment and out competing other algae and our native seagrass. Already present in Fiji?	5	Hawaiian most impactful	221179	Avrainvillea amadelpha	(Montagne) A.Gepp & E.S.Gepp, 1908	221179	Avrainvillea amadelpha	(Montagne) A.Gepp & E.S.Gepp, 1908
+Mnemiopsis leidyi			American comb jelly		5	Hawaiian priority	106401	Mnemiopsis leidyi	A. Agassiz, 1865	106401	Mnemiopsis leidyi	A. Agassiz, 1865
+Hydrozoa		sp.	Any new species to HI		5	Hawaiian priority	1337	Hydrozoa	Owen, 1843	1337	Hydrozoa	Owen, 1843
+Scyphozoa		sp.	Jellyfish  Sea Jelly		5	Hawaiian priority	135220	Scyphozoa	Goette, 1887	135220	Scyphozoa	Goette, 1887
+Limnoperna fortunei			Golden mussel		5	Hawaiian priority	506081	Limnoperna fortunei	(Dunker, 1857)	506081	Limnoperna fortunei	(Dunker, 1857)
+Musculista senhousia			Asian mussel		5	Hawaiian priority	140470	Musculista senhousia	(Benson, 1842)	505946	Arcuatula senhousia	(Benson, 1842)
+Callyspongia		sp.				Guam potential invasive	131825	Callyspongia	Duchassaing & Michelotti, 1864	131825	Callyspongia	Duchassaing & Michelotti, 1864
+Chelonaplysilla violacea						Guam potential invasive	164869	Chelonaplysilla violacea	(Lendenfeld, 1883)	164869	Chelonaplysilla violacea	(Lendenfeld, 1883)
+Cladocroce burrapha						Guam potential invasive	166302	Cladocroce burapha	Putchakarn, de Weerdt, Sonchaeng & van Soest, 2004	166302	Cladocroce burapha	Putchakarn, de Weerdt, Sonchaeng & van Soest, 2004
+Crella spinulata						Guam potential invasive	986930	Crella spinulata	(Hentschel, 1911)	169088	Crella (Yvesia) spinulata	(Hentschel, 1911)
+Darwinella australiensis						Guam potential invasive	132304	Darwinella australiensis	Carter, 1885	132304	Darwinella australiensis	Carter, 1885
+Dictyodendrilla dendyi						Guam potential invasive	164893	Dictyodendrilla dendyi	Bergquist, 1996	164893	Dictyodendrilla dendyi	Bergquist, 1996
+Callyspongia		sp.				Guam potential invasive	131825	Callyspongia	Duchassaing & Michelotti, 1864	131825	Callyspongia	Duchassaing & Michelotti, 1864
+Chelonaplysilla violacea						Guam potential invasive	164869	Chelonaplysilla violacea	(Lendenfeld, 1883)	164869	Chelonaplysilla violacea	(Lendenfeld, 1883)
+Cladocroce burrapha						Guam potential invasive	166302	Cladocroce burapha	Putchakarn, de Weerdt, Sonchaeng & van Soest, 2004	166302	Cladocroce burapha	Putchakarn, de Weerdt, Sonchaeng & van Soest, 2004
+Crella spinulata						Guam potential invasive	986930	Crella spinulata	(Hentschel, 1911)	169088	Crella (Yvesia) spinulata	(Hentschel, 1911)
+Darwinella australiensis						Guam potential invasive	132304	Darwinella australiensis	Carter, 1885	132304	Darwinella australiensis	Carter, 1885
+Dictyodendrilla dendyi						Guam potential invasive	164893	Dictyodendrilla dendyi	Bergquist, 1996	164893	Dictyodendrilla dendyi	Bergquist, 1996
+Dysidea		sp.				Guam potential invasive	131745	Dysidea	Johnston, 1842	131745	Dysidea	Johnston, 1842
+Dysidea arenaria						Guam potential invasive	164922	Dysidea arenaria	Bergquist, 1965	164922	Dysidea arenaria	Bergquist, 1965
+Echinodictyum asperum						Guam potential invasive	167963	Echinodictyum asperum	Ridley & Dendy, 1886	167963	Echinodictyum asperum	Ridley & Dendy, 1886
+Gelloides fibrosa						Guam potential invasive						
+Halichondria		sp.				Guam potential invasive	131807	Halichondria	Fleming, 1828	131807	Halichondria	Fleming, 1828
+Heteropia glomerosa						Guam potential invasive	164455	Heteropia glomerosa	(Bowerbank, 1873)	164455	Heteropia glomerosa	(Bowerbank, 1873)
+Lissodendoryx similis						Guam potential invasive	192353	Lissodendoryx similis	Thiele, 1899	168990	Lissodendoryx (Lissodendoryx) similis	Thiele, 1899
+Monanchora		sp.				Guam potential invasive	169014	Monanchora	Carter, 1883	169014	Monanchora	Carter, 1883
+Monanchora quadrangulata						Guam potential invasive	169023	Monanchora quadrangulata	(Lévi, 1958)	169023	Monanchora quadrangulata	(Lévi, 1958)
+Mycale grandis						Guam potential invasive	168632	Mycale (Mycale) grandis	Gray, 1867	168632	Mycale (Mycale) grandis	Gray, 1867
+Phorbas arborescens						Guam potential invasive						
+Sigmadocia		cf. caerulae				Guam potential invasive	175050					
+Strongylamma wilsoni						Guam potential invasive	169544	Strongylamma wilsoni	(Dendy, 1922)	169544	Strongylamma wilsoni	(Dendy, 1922)
+Suberites zeteki						Guam potential invasive	396702	Suberites zeteki	(de Laubenfels, 1936)	170835	Suberites aurantiacus	(Duchassaing & Michelotti, 1864)
+Tedania strongylostyla						Guam potential invasive	194298	Tedania strongylostyla	Kennedy & Hooper, 2000	169585	Tedania (Tedania) strongylostyla	Kennedy & Hooper, 2000
+Tethya deformis						Guam potential invasive	170947	Tethya deformis	Thiele, 1898	170947	Tethya deformis	Thiele, 1898
+Bouganvillia ramosa						Guam potential invasive						
+Carijoa riisei						Guam potential invasive	395098	Carijoa riisei	(Duchassaing & Michelotti, 1860)	395098	Carijoa riisei	(Duchassaing & Michelotti, 1860)
+Diadumene leucolena						Guam potential invasive	158230	Diadumene leucolena	(Verrill, 1866)	158230	Diadumene leucolena	(Verrill, 1866)
+Diadumene lineata						Guam potential invasive	395099	Diadumene lineata	(Verrill, 1869)	395099	Diadumene lineata	(Verrill, 1869)
+Dynamena crisioides						Guam potential invasive	418901	Dynamena crisioides	Lamouroux, 1824	418901	Dynamena crisioides	Lamouroux, 1824
+Branchiomma nigromaculata						Guam potential invasive	209930	Branchiomma nigromaculatum	(Baird, 1865)	209930	Branchiomma nigromaculatum	(Baird, 1865)
+Circeus		cf. amoricana				Guam potential invasive						
+Eulaeospira orientalis						Guam potential invasive	210055	Eulaeospira orientalis	(Pillai, 1960)	210055	Eulaeospira orientalis	(Pillai, 1960)
+Hydroides crucigerus						Guam potential invasive	333637	Hydroides crucigera	Mörch, 1863	333637	Hydroides crucigera	Mörch, 1863
+Hydroides dirampha						Guam potential invasive	131001	Hydroides dirampha	Mörch, 1863	131001	Hydroides dirampha	Mörch, 1863
+Hydroides elegans						Guam potential invasive	131002	Hydroides elegans	(Haswell, 1883) [nomen protectum]	131002	Hydroides elegans	(Haswell, 1883) [nomen protectum]
+Neodexiospira foraminosa						Guam potential invasive	210062	Neodexiospira foraminosa	(Bush in Moore & Bush, 1904)	210062	Neodexiospira foraminosa	(Bush in Moore & Bush, 1904)
+Neodexiospira preacuta						Guam potential invasive	210063	Neodexiospira preacuta	(Vine, 1972)	605981	Neodexiospira turrita	(Vine, 1972)
+Rhamphostomella argentea						Guam potential invasive	111138	Rhamphostomella argentea	(Hincks, 1881)	216026	Robertsonidra argentea	(Hincks, 1881)
+Scrupocellaria		cf. sinuosa				Guam potential invasive						
+Watersipora edmondsii						Guam potential invasive	396736	Watersipora edmondsoni	Soule & Soule, 1968	111592	Watersipora subtorquata	(d'Orbigny, 1852)
+Pileolaria militaris						Guam potential invasive	131220	Pileolaria militaris	Claparède, 1870	131220	Pileolaria militaris	Claparède, 1870
+Pomatoceros		cf. minutus				Guam potential invasive						
+Pomatoleios kraussii						Guam potential invasive	131028	Pomatoleios kraussii	(Baird, 1864)	555934	Spirobranchus kraussii	(Baird, 1864)
+Sabellastarte spectabilis						Guam potential invasive	429077	Sabellastarte spectabilis	(Grube, 1878)	429077	Sabellastarte spectabilis	(Grube, 1878)
+Salmacina tribranchiata						Guam potential invasive	334720	Salmacina tribranchiata	(Moore, 1923)	334720	Salmacina tribranchiata	(Moore, 1923)
+Serpula		cf. watsoni				Guam potential invasive						
+Serpula verimcularis						Guam potential invasive	131051	Serpula vermicularis	Linnaeus, 1767	131051	Serpula vermicularis	Linnaeus, 1767
+Simplicaria pseudomilitaris						Guam potential invasive						
+Chama fibula						Guam potential invasive	208490	Chama fibula	Reeve, 1846	208488	Chama asperella	Lamarck, 1819
+Chama macerophylla						Guam potential invasive	397039	Chama macerophylla	Gmelin, 1791	397039	Chama macerophylla	Gmelin, 1791
+Crucibulum spinosum						Guam potential invasive	397064	Crucibulum spinosum	(G. B. Sowerby I, 1824)	397064	Crucibulum spinosum	(G. B. Sowerby I, 1824)
+Hipponix australis						Guam potential invasive	212116	Hipponix australis	(Lamarck, 1819)	598647	Sabia australis	(Lamarck, 1819)
+Vermetus alii						Guam potential invasive	397202	Vermetus alii	Hadfield & Kay in Hadfield et al., 1972	709533	Eualetes tulipa	(Rousseau in Chenu, 1843)
+Balanus amphitrite						Guam potential invasive	106211	Balanus amphitrite	Darwin, 1854	421137	Amphibalanus amphitrite	(Darwin, 1854)
+Balanus eburneus						Guam potential invasive	106216	Balanus eburneus	Gould, 1841	421138	Amphibalanus eburneus	(Gould, 1841)
+Balanus trigonus						Guam potential invasive	106223	Balanus trigonus	Darwin, 1854	106223	Balanus trigonus	Darwin, 1854
+Caprella acutifrons						Guam potential invasive	101823	Caprella acutifrons	Latreille, 1816	101846	Caprella penantis	Leach, 1814
+Ericthonius brasiliensis						Guam potential invasive	102401	Ericthonius brasiliensis	(Dana, 1853)	102401	Ericthonius brasiliensis	(Dana, 1853)
+Glabropilmnus seminudus						Guam potential invasive						
+Gonodactylaceusus mutatus						Guam potential invasive						
+Jassa falcata						Guam potential invasive						
+Megabalanus californicus						Guam potential invasive	394981	Megabalanus californicus	(Pilsbry, 1916)	394981	Megabalanus californicus	(Pilsbry, 1916)
+Megabalanus peninsularis						Guam potential invasive	535227	Megabalanus peninsularis	(Pilsbry, 1916)	535227	Megabalanus peninsularis	(Pilsbry, 1916)
+Megabalanus tanagrae						Guam potential invasive	394985	Megabalanus tanagrae	(Pilsbry, 1928)	394985	Megabalanus tanagrae	(Pilsbry, 1928)
+Anoplodactylus		sp.				Guam potential invasive						
+Echinodermata						Guam potential invasive	1806	Echinodermata	Bruguière, 1791 [ex Klein, 1734]	1806	Echinodermata	Bruguière, 1791 [ex Klein, 1734]
+Ophiactis savignyi						Guam potential invasive	125122	Ophiactis savignyi	(Müller & Troschel, 1842)	125122	Ophiactis savignyi	(Müller & Troschel, 1842)
+Bugula neritina						Guam potential invasive	111158	Bugula neritina	(Linnaeus, 1758)	111158	Bugula neritina	(Linnaeus, 1758)
+Bugula robusta						Guam potential invasive	210808	Bugula robusta	MacGillivray, 1869	210808	Bugula robusta	MacGillivray, 1869
+Hippoppdina feegeensis						Guam potential invasive						
+Holoporella pilaefera						Guam potential invasive						
+Rhamphostomella argentea						Guam potential invasive	111138	Rhamphostomella argentea	(Hincks, 1881)	216026	Robertsonidra argentea	(Hincks, 1881)
+Scrupocellaria		cf. sinuosa				Guam potential invasive						
+Watersipora edmondsii						Guam potential invasive	396736	Watersipora edmondsoni	Soule & Soule, 1968	111592	Watersipora subtorquata	(d'Orbigny, 1852)
+Ascidia archaia						Guam potential invasive	249968	Ascidia archaia	Sluiter, 1890	249968	Ascidia archaia	Sluiter, 1890
+Ascidia sydneiensis						Guam potential invasive	215940	Ascidia sydneiensis	Stimpson, 1855	215940	Ascidia sydneiensis	Stimpson, 1855
+Botrylloides simodensis						Guam potential invasive	250085	Botrylloides simodensis	Saito & Watanabe, 1981	250085	Botrylloides simodensis	Saito & Watanabe, 1981
+Botrylloides		sp.				Guam potential invasive						
+Cnemidocarpa irene						Guam potential invasive	250346	Cnemidocarpa irene	(Hartmeyer, 1906)	250346	Cnemidocarpa irene	(Hartmeyer, 1906)
+Didemnum		cf. perlucidu				Guam potential invasive						
+Diplosoma listerianum						Guam potential invasive	103579	Diplosoma listerianum	(Milne Edwards, 1841)	103579	Diplosoma listerianum	(Milne Edwards, 1841)
+Eusynstyela hartmeyeri						Guam potential invasive	103892	Eusynstyela hartmeyeri	Michaelsen, 1904	103892	Eusynstyela hartmeyeri	Michaelsen, 1904
+Herdmania momus						Guam potential invasive	103830	Herdmania momus	(Savigny, 1816)	103830	Herdmania momus	(Savigny, 1816)
+Herdmania pallida						Guam potential invasive	250697	Herdmania pallida	(Heller, 1878)	250697	Herdmania pallida	(Heller, 1878)
+Lissoclinum fragile						Guam potential invasive	250786	Lissoclinum fragile	(Van Name, 1902)	250786	Lissoclinum fragile	(Van Name, 1902)
+Microcosmus exasperatus						Guam potential invasive	103838	Microcosmus exasperatus	Heller, 1878	103838	Microcosmus exasperatus	Heller, 1878
+Phallusia nigra						Guam potential invasive	103725	Phallusia nigra	Savigny, 1816	103725	Phallusia nigra	Savigny, 1816
+Polyandrocarpa sagamiensis						Guam potential invasive	253500	Polyandrocarpa sagamiensis	Tokioka, 1953	253500	Polyandrocarpa sagamiensis	Tokioka, 1953
+Polycarpa aurita						Guam potential invasive	251002	Polycarpa aurita	(Sluiter, 1890)	251002	Polycarpa aurita	(Sluiter, 1890)
+Polyclinum constellatum						Guam potential invasive	215891	Polyclinum constellatum	Savigny, 1816	215891	Polyclinum constellatum	Savigny, 1816
+Styela canopus						Guam potential invasive	103926	Styela canopus	(Savigny, 1816)	103926	Styela canopus	(Savigny, 1816)
+Styela clava						Guam potential invasive	103929	Styela clava	Herdman, 1881	103929	Styela clava	Herdman, 1881
+Styela plicata						Guam potential invasive	103936	Styela plicata	(Lesueur, 1823)	103936	Styela plicata	(Lesueur, 1823)
+Symplegma brakenhielmi						Guam potential invasive	251435	Symplegma brakenhielmi	(Michaelsen, 1904)	251435	Symplegma brakenhielmi	(Michaelsen, 1904)
+Symplegma		sp.				Guam potential invasive						
+Caulerpa serruleta						Tropical West Pacific introduced	211485	Caulerpa serrulata	(Forsskål) J.Agardh, 1837	211485	Caulerpa serrulata	(Forsskål) J.Agardh, 1837
+Codium ovale	Zanardini 1878		Spongy ball alga	Have been observed to be rapidly colonising disturbed areas with their tendency to form large clumps that potentially smother other native benthos.		Tropical West Pacific introduced	211734	Codium ovale	Zanardini, 1878	211734	Codium ovale	Zanardini, 1878
+Codium arenicola	M.E.Chacana & P.C.Silva  2014		Dead mans fingers	Very little is known of this species or its impact on the marine environment. Similar species of Codium have been proven highly invasive  specifically Codium tomentosoides in New Zealand and South Australia. This alga is of concern  and effort should be made to monitor its spread.		Tropical West Pacific introduced	376953	Codium arenicola	M.E.Chacana & P.C.Silva, 2014	376953	Codium arenicola	M.E.Chacana & P.C.Silva, 2014
+Halymenia durvillei						Tropical West Pacific introduced	371236	Halymenia durvillei	Bory de Saint-Vincent, 1828	371236	Halymenia durvillei	Bory de Saint-Vincent, 1828
+Spatoglossum macrodontum	J Agardh 1882			Probably a recent introduction to Samoa  with invasive tendency. This Australian native has recently been collected from Samoa. It is found in Hawaii and French Polynesia  and could very well be recent introductions there. The degraded area where this alga is growing is a text-book habitat for invasive species.		Tropical West Pacific introduced	374628	Spatoglossum macrodontum	J.Agardh, 1882	374628	Spatoglossum macrodontum	J.Agardh, 1882
+Valonia fastigiata	Harvey ex J Agardh 1887			Coral reefs have been damaged by outbreaks of this species		Tropical West Pacific introduced	211681	Valonia fastigiata	Harvey ex J.Agardh, 1887	211681	Valonia fastigiata	Harvey ex J.Agardh, 1887
+Callyspongia		aff. Fibrosa (Ridley and Dendy 1886)				Tropical West Pacific introduced						
+Ianthella basta	(Pallas 1766)					Tropical West Pacific introduced	165135	Ianthella basta	(Pallas, 1766)	165135	Ianthella basta	(Pallas, 1766)
+Mycale		sp.	orange sponge	Identified as a potential threat to coral reefs of Hawaii		Tropical West Pacific introduced						
+Mycale (Crambia)		sp. 1				Tropical West Pacific introduced						
+Niphates		sp. 1		One species currently spreading on the coast of Turkey		Tropical West Pacific introduced						
+Tedania		cf. ignis (Duchassaing and Michelotti 1864)		Native to eastern caribbean		Tropical West Pacific introduced						
+Haliclona		caerulea? Hechtel 1965		Native to the Caribbean introduced in the central pacific		Tropical West Pacific introduced						
+Actiniaria		sp. (1 2 3)				Tropical West Pacific introduced						
+Aiptasia		sp.				Tropical West Pacific introduced						
+Carijoa riisei	(Duchassaing and Michelotti 1860)			According to the Australian risk assessment  not considered high risk	1	Tropical West Pacific introduced	395098	Carijoa riisei	(Duchassaing & Michelotti, 1860)	395098	Carijoa riisei	(Duchassaing & Michelotti, 1860)
+Litophyton		sp.				Tropical West Pacific introduced						
+Antennella secundaria	(Gmelin 1791)			According to the Australian risk assessment  not considered high risk	1	Tropical West Pacific introduced	117628	Antennella secundaria	(Gmelin, 1791)	117628	Antennella secundaria	(Gmelin, 1791)
+Bouganvillea		sp.				Tropical West Pacific introduced						
+Bouganvillia muscus						Tropical West Pacific introduced						
+Clytia hemisphaerica	(Linnaeus 1767)					Tropical West Pacific introduced	117368	Clytia hemisphaerica	(Linnaeus, 1767)	117368	Clytia hemisphaerica	(Linnaeus, 1767)
+Clytia latitheca	Millard and Bouillon 1973					Tropical West Pacific introduced	220578	Clytia latitheca	Millard & Bouillon, 1973	1341810	Clytia thornelyi	(Nutting, 1927)
+Clytia linearis	(Thorneley 1900)					Tropical West Pacific introduced	117370	Clytia linearis	(Thorneley, 1900)	117370	Clytia linearis	(Thorneley, 1900)
+Clytia noliformis	(McCrady 1859) sensu Calder 1991					Tropical West Pacific introduced	117372	Clytia noliformis	(McCrady, 1859) sensu Calder, 1991	117372	Clytia noliformis	(McCrady, 1859) sensu Calder, 1991
+Corydendrium parasiticum	(Linnaeus 1767)					Tropical West Pacific introduced	117433	Corydendrium parasiticum	(Linnaeus, 1767)	117433	Corydendrium parasiticum	(Linnaeus, 1767)
+Coryne eximia	(Allman 1859)					Tropical West Pacific introduced	151860	Coryne eximia	Allman, 1859	151860	Coryne eximia	Allman, 1859
+Dynamena crisioides						Tropical West Pacific introduced	418901	Dynamena crisioides	Lamouroux, 1824	418901	Dynamena crisioides	Lamouroux, 1824
+Ectopleura viridis	Thorneley 1900					Tropical West Pacific introduced	285967	Ectopleura viridis	(Pictet, 1893)	285967	Ectopleura viridis	(Pictet, 1893)
+Eudendrium carneum	Clarke 1882					Tropical West Pacific introduced	117545	Eudendrium carneum	Clarke, 1882	117545	Eudendrium carneum	Clarke, 1882
+Halopteris plagiocampa						Tropical West Pacific introduced	287312	Halopteris plagiocampa	(Pictet, 1893)	287312	Halopteris plagiocampa	(Pictet, 1893)
+Nemalecium lighti						Tropical West Pacific introduced	290449	Nemalecium lighti	(Hargitt, 1924)	290449	Nemalecium lighti	(Hargitt, 1924)
+Obelia bidentata						Tropical West Pacific introduced	117385	Obelia bidentata	Clark, 1875	117385	Obelia bidentata	Clark, 1875
+Obelia dichotoma	(Linnaeus 1758)			According to the Australian risk assessment  not considered high risk	1	Tropical West Pacific introduced	117386	Obelia dichotoma	(Linnaeus, 1758)	117386	Obelia dichotoma	(Linnaeus, 1758)
+Pennaria disticha	Goldfuss 1820			Very common as a fouling organism on wharf pilings. Widespread throughout the Indo-Pacific. Its abundance and remarkable range is probably a result of historical movement of vessels  especially wooden vessels in the early days of sea-exploration.		Tropical West Pacific introduced	117802	Pennaria disticha	Goldfuss, 1820	117802	Pennaria disticha	Goldfuss, 1820
+Plumularia strictocarpa						Tropical West Pacific introduced	285299	Plumularia strictocarpa	Pictet, 1893	285299	Plumularia strictocarpa	Pictet, 1893
+Sertularella diaphena						Tropical West Pacific introduced	285502	Sertularella diaphana	(Allman, 1885)	285502	Sertularella diaphana	(Allman, 1885)
+Turritopsis nutricula	McCrady 1857			Widespread  originates from Caribbean? But probably no danger of invasiveness		Tropical West Pacific introduced	117440	Turritopsis nutricula	McCrady, 1857	117440	Turritopsis nutricula	McCrady, 1857
+Thyroscyphus fruticosus	(Esper 1793)			Already in Fiji (most likely local?)		Tropical West Pacific introduced	287749	Thyroscyphus fruticosus	(Esper, 1797)	287749	Thyroscyphus fruticosus	(Esper, 1797)
+Chaetopterus variopedatus						Tropical West Pacific introduced	129914	Chaetopterus variopedatus	(Renier, 1804)	129914	Chaetopterus variopedatus	(Renier, 1804)
+Eulalia sanguinea						Tropical West Pacific introduced	155337	Eulalia sanguinea	Örsted, 1843	130644	Eumida sanguinea	(Örsted, 1843)
+Ficopomatus enigmaticus	(Fauvel 1923)					Tropical West Pacific introduced	130988	Ficopomatus enigmaticus	(Fauvel, 1923)	130988	Ficopomatus enigmaticus	(Fauvel, 1923)
+Hydroides elegans	(Haswell 1883)			According to the Australian risk assessment  not considered high risk	1	Tropical West Pacific introduced	131002	Hydroides elegans	(Haswell, 1883) [nomen protectum]	131002	Hydroides elegans	(Haswell, 1883) [nomen protectum]
+Hydroides sanctaecrucis	Krøyer 1863					Tropical West Pacific introduced	333645	Hydroides sanctaecrucis	Krøyer in Mörch, 1863	333645	Hydroides sanctaecrucis	Krøyer in Mörch, 1863
+Pileolaria militaris						Tropical West Pacific introduced	131220	Pileolaria militaris	Claparède, 1870	131220	Pileolaria militaris	Claparède, 1870
+Oenone fulgida	(Savigny in Lamarck 1818)					Tropical West Pacific introduced	130451	Oenone fulgida	(Lamarck, 1818)	130451	Oenone fulgida	(Lamarck, 1818)
+Sabella spallanzanii	(Gmelin 1791)			According to the Australian risk assessment  not considered high risk	1	Tropical West Pacific introduced	130969	Sabella spallanzanii	(Gmelin, 1791)	130969	Sabella spallanzanii	(Gmelin, 1791)
+Sabellastarte spectabilis	(Grube 1878)			Widespread throughout the Indo-Pacific  although considered an introduced species to the Hawaiian Islands.		Tropical West Pacific introduced	429077	Sabellastarte spectabilis	(Grube, 1878)	429077	Sabellastarte spectabilis	(Grube, 1878)
+Salmacina dysteri	(Huxley 1855)			It is not clear where this species originated  but it is now found in warm waters globally. It was first seen in Hawaii in 1939  and it occurs there from the eulittoral zone down to around 600 m (2 000 ft).[2] It grows on solid structures such as on rocks  on seaweed on reef flats  on reef slopes and docks  especially in harbours and bays,it also grows on the hulls of ships and on top of other fouling organisms. In WriMS		Tropical West Pacific introduced		(Huxley, 1855)	131038	Salmacina dysteri	(Huxley, 1855)	
+Thelepus setosus	(Quatrefages 1866)					Tropical West Pacific introduced	131544	Thelepus setosus	(Quatrefages, 1866)	131544	Thelepus setosus	(Quatrefages, 1866)
+Timarete caribous	(Grube 1859)					Tropical West Pacific introduced	761956	Timarete caribous	(Grube, 1859)	761956	Timarete caribous	(Grube, 1859)
+Serpulididae		sp.				Tropical West Pacific introduced						
+Serpula vermicularis						Tropical West Pacific introduced	131051	Serpula vermicularis	Linnaeus, 1767	131051	Serpula vermicularis	Linnaeus, 1767
+Spirobranchus kraussii						Tropical West Pacific introduced	555934	Spirobranchus kraussii	(Baird, 1864)	555934	Spirobranchus kraussii	(Baird, 1864)
+Bostrycapulus aculeatus	(Gmelin 1791)					Tropical West Pacific introduced	419700	Bostrycapulus aculeatus	(Gmelin, 1791)	419700	Bostrycapulus aculeatus	(Gmelin, 1791)
+Cellana mazatlandica	(GB Sowerby I 1839)					Tropical West Pacific introduced	531786	Cellana mazatlandica	(G. B. Sowerby I, 1839)	531786	Cellana mazatlandica	(G. B. Sowerby I, 1839)
+Crepidula aculeata						Tropical West Pacific introduced	180994	Crepidula aculeata	(Gmelin, 1791)	419700	Bostrycapulus aculeatus	(Gmelin, 1791)
+Crucibulum spinosum	(GB Sowerby I 1824)					Tropical West Pacific introduced	397064	Crucibulum spinosum	(G. B. Sowerby I, 1824)	397064	Crucibulum spinosum	(G. B. Sowerby I, 1824)
+Tathrella iredalei	Laseron 1959					Tropical West Pacific introduced	881585	Tathrella iredalei	Laseron, 1959	881585	Tathrella iredalei	Laseron, 1959
+Tectus niloticus	(Linnaeus 1767)			Commercially important species  native in Fiji?		Tropical West Pacific introduced	449924	Tectus niloticus	(Linnaeus, 1767)	1251282	Rochia nilotica	(Linnaeus, 1767)
+Anomia nobilis						Tropical West Pacific introduced	207752	Anomia nobilis	Reeve, 1859	504268	Monia nobilis	(Reeve, 1859)
+Arcuatula senhousia	(Benson in Cantor 1842)					Tropical West Pacific introduced	505946	Arcuatula senhousia	(Benson, 1842)	505946	Arcuatula senhousia	(Benson, 1842)
+Chama asperella	Lamarck 1819					Tropical West Pacific introduced	208488	Chama asperella	Lamarck, 1819	208488	Chama asperella	Lamarck, 1819
+Chama macerophylla	Gmelin 1791					Tropical West Pacific introduced	397039	Chama macerophylla	Gmelin, 1791	397039	Chama macerophylla	Gmelin, 1791
+Chama pacifica						Tropical West Pacific introduced	139120	Chama pacifica	Broderip, 1835	139120	Chama pacifica	Broderip, 1835
+Crassostrea echinata				Have established larger populations. (comm. Hewivatharane)		Tropical West Pacific introduced	367832	Crassostrea echinata	(Quoy & Gaimard, 1835)	506736	Saccostrea echinata	(Quoy & Gaimard, 1835)
+Crassostrea gigas	(Thunberg 1793)			Have established larger populations. More meaty and perform same ecological functions as native species which is why they are not viewed as invasives. (comm. Hewivatharane)	1	Tropical West Pacific introduced	140656	Crassostrea gigas	(Thunberg, 1793)	836033	Magallana gigas	(Thunberg, 1793)
+Hiatella arctica						Tropical West Pacific introduced	140103	Hiatella arctica	(Linnaeus, 1767)	140103	Hiatella arctica	(Linnaeus, 1767)
+Isognomon ephippium	(Linnaeus 1758)					Tropical West Pacific introduced	208462	Isognomon ephippium	(Linnaeus, 1758)	208462	Isognomon ephippium	(Linnaeus, 1758)
+Monia nobilis	(Reeve 1859)					Tropical West Pacific introduced	504268	Monia nobilis	(Reeve, 1859)	504268	Monia nobilis	(Reeve, 1859)
+Mytilopsis sallei	(Récluz 1849)					Tropical West Pacific introduced	397147	Mytilopsis sallei	(Récluz, 1849)	397147	Mytilopsis sallei	(Récluz, 1849)
+Neotrapezium sublaevigatum	(Lamarck 1819)					Tropical West Pacific introduced	504757	Neotrapezium sublaevigatum	(Lamarck, 1819)	504757	Neotrapezium sublaevigatum	(Lamarck, 1819)
+Perna viridis	(Linnaeus 1758)					Tropical West Pacific introduced	367822	Perna viridis	(Linnaeus, 1758)	367822	Perna viridis	(Linnaeus, 1758)
+Saccostrea echinata	(Quoy and Gaimard 1835)					Tropical West Pacific introduced	506736	Saccostrea echinata	(Quoy & Gaimard, 1835)	506736	Saccostrea echinata	(Quoy & Gaimard, 1835)
+Trapezium sublaevigatum						Tropical West Pacific introduced	208482	Trapezium sublaevigatum	(Lamarck, 1819)	504757	Neotrapezium sublaevigatum	(Lamarck, 1819)
+Tridacna derasa	(Röding 1798)					Tropical West Pacific introduced	382205	Tridacna derasa	(Röding, 1798)	382205	Tridacna derasa	(Röding, 1798)
+Tridacna gigas	(Linnaeus 1758)					Tropical West Pacific introduced	207670	Tridacna gigas	(Linnaeus, 1758)	207670	Tridacna gigas	(Linnaeus, 1758)
+Amphibalanus eburneus	(Gould 1841)					Tropical West Pacific introduced	421138	Amphibalanus eburneus	(Gould, 1841)	421138	Amphibalanus eburneus	(Gould, 1841)
+Amphibalanus reticulatus				Native to indo-pacific  introduced widely around the world.		Tropical West Pacific introduced	421140	Amphibalanus reticulatus	(Utinomi, 1967)	421140	Amphibalanus reticulatus	(Utinomi, 1967)
+Chthamalus proteus	Dando and Southward 1980					Tropical West Pacific introduced	394878	Chthamalus proteus	Dando & Southward, 1980	394878	Chthamalus proteus	Dando & Southward, 1980
+Amphibalanus Amphitrite	(Darwin 1854)			This barnacle is considered an introduced and invasive in the Hawaiian Islands. Its native distribution is the Indo-Pacific. It is a serious fouling organism and its current widespread nature may have been aided by shipping activities dating back to early explorers.		Tropical West Pacific introduced	415046	Amphibalanus	Pitombo, 2004	415046	Amphibalanus	Pitombo, 2004
+Chthalamus Proteus	Dando and Southward 1980			According to the Australian risk assessment  not considered high risk	1	Tropical West Pacific introduced						
+Tetraclita japonica	Pilsbury 1916			Common in the Western Pacific Ocean		Tropical West Pacific introduced	535479	Tetraclita japonica	(Pilsbry, 1916)	535479	Tetraclita japonica	(Pilsbry, 1916)
+Ligia exotica	Roux 1828			Native to the Indo-Pacific. Although it is widely introduced  no economic or ecological impacts have been reported.		Tropical West Pacific introduced	148661	Ligia exotica	Roux, 1828	955994	Ligia (Megaligia) exotica	Roux, 1828
+Paracerceis sculpta	(Holmes 1904)			According to the Australian risk assessment  not considered high risk	1	Tropical West Pacific introduced	261827	Paracerceis sculpta	(Holmes, 1904)	261827	Paracerceis sculpta	(Holmes, 1904)
+Bemlos virgus						Tropical West Pacific introduced	488772	Bemlos virgus	Myers, 1985	488772	Bemlos virgus	Myers, 1985
+Charybdis helleri	(Milne Edwards 1867)					Tropical West Pacific introduced	107382	Charybdis (Charybdis) hellerii	(A. Milne-Edwards, 1867)	107382	Charybdis (Charybdis) hellerii	(A. Milne-Edwards, 1867)
+Corophium insidiosum						Tropical West Pacific introduced	102092	Corophium insidiosum	Crawford, 1937	148592	Monocorophium insidiosum	(Crawford, 1937)
+Elasmopus rapax						Tropical West Pacific introduced	102805	Elasmopus rapax	Costa, 1853	102805	Elasmopus rapax	Costa, 1853
+Erichthonius punctatus						Tropical West Pacific introduced	102408	Ericthonius punctatus	(Spence Bate, 1857)	102408	Ericthonius punctatus	(Spence Bate, 1857)
+Erichthonius brasiliensis						Tropical West Pacific introduced	183505	Erichthonius brasiliensis	(Dana, 1853)	102401	Ericthonius brasiliensis	(Dana, 1853)
+Laticorophium baconi				According to the Australian risk assessment not considered a high risk	1	Tropical West Pacific introduced	421577	Laticorophium baconi	(Shoemaker, 1934)	421577	Laticorophium baconi	(Shoemaker, 1934)
+Leucothoe micronesiae						Tropical West Pacific introduced	510288	Leucothoe micronesiae	J.L. Barnard, 1965	510288	Leucothoe micronesiae	J.L. Barnard, 1965
+Metopograpsus oceanicus	(Hombron and Jacquinot 1846)					Tropical West Pacific introduced	207535	Metopograpsus oceanicus	(Hombron & Jacquinot, 1846 [in Hombron & Jacquinot, 1842-1854])	207535	Metopograpsus oceanicus	(Hombron & Jacquinot, 1846 [in Hombron & Jacquinot, 1842-1854])
+Monocorophium acherusicum				According to the Australian risk assessment  not considered high risk	1	Tropical West Pacific introduced	225814	Monocorophium acherusicum	(Costa, 1853)	225814	Monocorophium acherusicum	(Costa, 1853)
+Panopeus pacificus						Tropical West Pacific introduced	395020	Panopeus pacificus	Edmondson, 1931	443953	Acantholobulus pacificus	(Edmondson, 1931)
+Penaeus monodon	Fabricius 1798					Tropical West Pacific introduced	210378	Penaeus monodon	Fabricius, 1798	210378	Penaeus monodon	Fabricius, 1798
+Penaeus stylirostris	Stimpson 1871			Found to have natural breeding populations with little known negative effects (comm. Hewivatharane)	1	Tropical West Pacific introduced	584982	Penaeus stylirostris	Stimpson, 1871	584982	Penaeus stylirostris	Stimpson, 1871
+Percnon guinotae	Crosnier 1965			Although the distribution of this species appears to be sporadic throughout the tropical seas (e.g. China  Indonesia  Australia  French Polynesia and Samoa)  its presence in the Pacific Islands may be more recent.		Tropical West Pacific introduced	207573	Percnon guinotae	Crosnier, 1965	207573	Percnon guinotae	Crosnier, 1965
+Penaeus vannamei	Boone 1931			Found to have natural breeding populations with little known negative effects (comm. Hewivatharane)	1	Tropical West Pacific introduced	377748	Penaeus vannamei	Boone, 1931	377748	Penaeus vannamei	Boone, 1931
+Caprella scaura						Tropical West Pacific introduced	236551	Caprella scaura	Templeton, 1836	236551	Caprella scaura	Templeton, 1836
+Stenothoe gallensis						Tropical West Pacific introduced						
+Stenothoe valida						Tropical West Pacific introduced	103175	Stenothoe valida	Dana, 1852	103175	Stenothoe valida	Dana, 1852
+Anoplodactylus callifornicus						Tropical West Pacific introduced	134716	Anoplodactylus californicus	Hall, 1912	134716	Anoplodactylus californicus	Hall, 1912
+Endeis nodosa						Tropical West Pacific introduced	239997	Endeis nodosa	Hilton, 1942	239997	Endeis nodosa	Hilton, 1942
+Aetea anguina	(Linnaeus 1758)					Tropical West Pacific introduced	111062	Aetea anguina	(Linnaeus, 1758)	111062	Aetea anguina	(Linnaeus, 1758)
+Amathia distans	Busk 1886			According to the Australian risk assessment  not considered high risk	1	Tropical West Pacific introduced	111656	Amathia distans	Busk, 1886	111656	Amathia distans	Busk, 1886
+Amathia verticellatum	(delle Chiaje 1822)					Tropical West Pacific introduced	851581	Amathia verticillata	(delle Chiaje, 1822)	851581	Amathia verticillata	(delle Chiaje, 1822)
+Bowerbankia		sp.				Tropical West Pacific introduced						
+Bowerbankia		cf. imbricata				Tropical West Pacific introduced						
+Bryozoan		sp. 1 (metallic)				Tropical West Pacific introduced						
+Bugula neritina	(Linnaeus 1758)			According to the Australian risk assessment  not considered high risk. Native to the Caribbean  believed to have been introduced to many areas  especially in Australia  Southeast Asia and the Red Sea  Indian Ocean and the Mediterranean.	1	Tropical West Pacific introduced	111158	Bugula neritina	(Linnaeus, 1758)	111158	Bugula neritina	(Linnaeus, 1758)
+Bugula Dentata						Tropical West Pacific introduced	110839	Bugula	Oken, 1815	110839	Bugula	Oken, 1815
+Bugulina stolonifera	(Ryland 1960)					Tropical West Pacific introduced	834018	Bugulina stolonifera	(Ryland, 1960)	834018	Bugulina stolonifera	(Ryland, 1960)
+Caulibugula dendrograpta						Tropical West Pacific introduced	394866	Caulibugula dendrograpta	(Waters, 1913)	394866	Caulibugula dendrograpta	(Waters, 1913)
+Celleporaria brunnea						Tropical West Pacific introduced	394868	Celleporaria brunnea	(Hincks, 1884)	394868	Celleporaria brunnea	(Hincks, 1884)
+Celleporaria pilaefera						Tropical West Pacific introduced	220614	Celleporaria pilaefera	(Canu & Bassler, 1929)	220614	Celleporaria pilaefera	(Canu & Bassler, 1929)
+Conopeum seurati	(Canu 1928)					Tropical West Pacific introduced	111352	Conopeum seurati	(Canu, 1928)	111352	Conopeum seurati	(Canu, 1928)
+Hippopodina tahitiensis						Tropical West Pacific introduced	469857	Hippopodina tahitiensis	(Leca & d'Hondt, 1993)	469857	Hippopodina tahitiensis	(Leca & d'Hondt, 1993)
+Poricella robusta						Tropical West Pacific introduced	471973	Poricella robusta	(Hincks, 1884)	471973	Poricella robusta	(Hincks, 1884)
+Savignyella lafontii	(Audouin 1826)					Tropical West Pacific introduced	111512	Savignyella lafontii	(Audouin, 1826)	111512	Savignyella lafontii	(Audouin, 1826)
+Schizoporella errata	(Waters 1878)					Tropical West Pacific introduced	111527	Schizoporella errata	(Waters, 1878)	111527	Schizoporella errata	(Waters, 1878)
+Schizoporella pseudoerrata						Tropical West Pacific introduced	470361	Schizoporella pseudoerrata	Soule, Soule & Chaney, 1995	470361	Schizoporella pseudoerrata	Soule, Soule & Chaney, 1995
+Schizoporella pungens						Tropical West Pacific introduced	422363	Schizoporella pungens	Canu & Bassler, 1928	422363	Schizoporella pungens	Canu & Bassler, 1928
+Schizoporella serialis	(Heller 1867)					Tropical West Pacific introduced	717194	Schizoporella serialis	(Heller, 1867)	717194	Schizoporella serialis	(Heller, 1867)
+Tricellaria inopinata	dHondt and Occhipinti Ambrogi 1985					Tropical West Pacific introduced	111254	Tricellaria inopinata	d'Hondt & Occhipinti Ambrogi, 1985	111254	Tricellaria inopinata	d'Hondt & Occhipinti Ambrogi, 1985
+Tricellaria occidentalis	(Trask 1857)					Tropical West Pacific introduced	395061	Tricellaria occidentalis	(Trask, 1857)	395061	Tricellaria occidentalis	(Trask, 1857)
+Watersipora subtorquata	(dOrbigny 1852)					Tropical West Pacific introduced	111592	Watersipora subtorquata	(d'Orbigny, 1852)	111592	Watersipora subtorquata	(d'Orbigny, 1852)
+Virididentula dentata	(Lamouroux  1816)					Tropical West Pacific introduced	833987	Virididentula dentata	(Lamouroux, 1816)	833987	Virididentula dentata	(Lamouroux, 1816)
+Ophiactis savignyi	(Müller and Troschel 1842)					Tropical West Pacific introduced	125122	Ophiactis savignyi	(Müller & Troschel, 1842)	125122	Ophiactis savignyi	(Müller & Troschel, 1842)
+Ascidia archaia	Sluiter 1890					Tropical West Pacific introduced	249968	Ascidia archaia	Sluiter, 1890	249968	Ascidia archaia	Sluiter, 1890
+Ascidia		sp. B				Tropical West Pacific introduced						
+Ascidia sydneiensis	Stimpson 1855					Tropical West Pacific introduced	215940	Ascidia sydneiensis	Stimpson, 1855	215940	Ascidia sydneiensis	Stimpson, 1855
+Ascidiacea		sp. A				Tropical West Pacific introduced						
+Botrylloides leachi	(Savigny 1816)			According to the Australian risk assessment  not considered high risk	1	Tropical West Pacific introduced	103859	Botrylloides leachi	(Savigny, 1816)	250081	Botrylloides leachii	(Savigny, 1816)
+Botrylloides		cf. simodensis Saito and Watanabe 1981				Tropical West Pacific introduced						
+Botrylloides niger	Herdman 1886					Tropical West Pacific introduced	252289	Botrylloides niger	Herdman, 1886	252289	Botrylloides niger	Herdman, 1886
+Botrylloides tyreus	(Herdman 1886)					Tropical West Pacific introduced	252302	Botrylloides tyreum	Herdman, 1886	252302	Botrylloides tyreum	Herdman, 1886
+Botryllus		sp.  B				Tropical West Pacific introduced						
+Botryllus		sp. A				Tropical West Pacific introduced						
+Cnemidocarpa irene	(Hartmeyer 1906)					Tropical West Pacific introduced	250346	Cnemidocarpa irene	(Hartmeyer, 1906)	250346	Cnemidocarpa irene	(Hartmeyer, 1906)
+Didemnum perlucidum	Monniot F 1983			On Australian pest priority list	5	Tropical West Pacific introduced	212506	Didemnum perlucidum	Monniot F., 1983	212506	Didemnum perlucidum	Monniot F., 1983
+Didemnum psammatodes	(Sluiter 1895)					Tropical West Pacific introduced	252853	Didemnum psammatodes	(Sluiter, 1895)	252853	Didemnum psammatodes	(Sluiter, 1895)
+Didemnum		cf. spongioides Sluiter 1909				Tropical West Pacific introduced						
+Diplosoma listerianum	(Milne Edwards 1841)					Tropical West Pacific introduced	103579	Diplosoma listerianum	(Milne Edwards, 1841)	103579	Diplosoma listerianum	(Milne Edwards, 1841)
+Diplosoma		sp. A				Tropical West Pacific introduced						
+Ecteinascidia diaphanis	Sluiter 1886					Tropical West Pacific introduced	250173	Ecteinascidia diaphanis	Sluiter, 1886	250173	Ecteinascidia diaphanis	Sluiter, 1886
+Eusynstyela hartmeyeri	Michaelson 1904					Tropical West Pacific introduced	103892	Eusynstyela hartmeyeri	Michaelsen, 1904	103892	Eusynstyela hartmeyeri	Michaelsen, 1904
+Herdmania insolita	Monniot F and Monniot C 2001					Tropical West Pacific introduced	253082	Herdmania insolita	Monniot F. & Monniot C., 2001	250694	Herdmania mauritiana	(Drasche, 1884)
+Herdmania pallida	(Heller 1878)					Tropical West Pacific introduced	250697	Herdmania pallida	(Heller, 1878)	250697	Herdmania pallida	(Heller, 1878)
+Herdmania mauritiana	(Drasche 1884)					Tropical West Pacific introduced	250694	Herdmania mauritiana	(Drasche, 1884)	250694	Herdmania mauritiana	(Drasche, 1884)
+Herdmania momus	(Savigny 1816)					Tropical West Pacific introduced	103830	Herdmania momus	(Savigny, 1816)	103830	Herdmania momus	(Savigny, 1816)
+Lissoclinum fragile	(Van Name 1902)					Tropical West Pacific introduced	250786	Lissoclinum fragile	(Van Name, 1902)	250786	Lissoclinum fragile	(Van Name, 1902)
+Microcosmus exasperatus	Heller 1878					Tropical West Pacific introduced	103838	Microcosmus exasperatus	Heller, 1878	103838	Microcosmus exasperatus	Heller, 1878
+Microcosmus helleri	Herdman 1881					Tropical West Pacific introduced	250845	Microcosmus helleri	Herdman, 1881	250845	Microcosmus helleri	Herdman, 1881
+Microcosmus pupa	(Savigny 1816)					Tropical West Pacific introduced	103843	Microcosmus pupa	(Savigny, 1816)	103843	Microcosmus pupa	(Savigny, 1816)
+Perophora multiclathrata	(Sluiter 1904)					Tropical West Pacific introduced	103760	Perophora multiclathrata	(Sluiter, 1904)	103760	Perophora multiclathrata	(Sluiter, 1904)
+Perophora sagamiensis	Tokioka 1953					Tropical West Pacific introduced	250618	Perophora sagamiensis	Tokioka, 1953	250618	Perophora sagamiensis	Tokioka, 1953
+Phallusia nigra	Savigny 1816					Tropical West Pacific introduced	103725	Phallusia nigra	Savigny, 1816	103725	Phallusia nigra	Savigny, 1816
+Phallusia philippinensis	Millar 1975					Tropical West Pacific introduced	250627	Phallusia philippinensis	Millar, 1975	250627	Phallusia philippinensis	Millar, 1975
+Polyandrocarpa sagamiensis	Tokioka 1953					Tropical West Pacific introduced	253500	Polyandrocarpa sagamiensis	Tokioka, 1953	253500	Polyandrocarpa sagamiensis	Tokioka, 1953
+Polycarpa aurita	(Sluiter 1890)					Tropical West Pacific introduced	251002	Polycarpa aurita	(Sluiter, 1890)	251002	Polycarpa aurita	(Sluiter, 1890)
+?Polycarpa nigricans	Heller 1878					Tropical West Pacific introduced	215953	Polycarpa nigricans	Heller, 1878	215953	Polycarpa nigricans	Heller, 1878
+Polyclinum constellatum	Savigny 1816					Tropical West Pacific introduced	215891	Polyclinum constellatum	Savigny, 1816	215891	Polyclinum constellatum	Savigny, 1816
+Polyclinum nudum	Kott 1992					Tropical West Pacific introduced	251108	Polyclinum nudum	Kott, 1992	251108	Polyclinum nudum	Kott, 1992
+Pyura		cf. robusta Hartmeyer 1922				Tropical West Pacific introduced						
+Pyura confragosa	Kott 1985					Tropical West Pacific introduced	251258	Pyura confragosa	Kott, 1985	251258	Pyura confragosa	Kott, 1985
+Pyura curvigona	Tokioka 1950					Tropical West Pacific introduced	251260	Pyura curvigona	Tokioka, 1950	251260	Pyura curvigona	Tokioka, 1950
+Pyura honu	Monniot C and Monniot F 1987					Tropical West Pacific introduced	251269	Pyura honu	Monniot C. & Monniot F., 1987	251269	Pyura honu	Monniot C. & Monniot F., 1987
+Pyura vittata	(Stimpson 1852)					Tropical West Pacific introduced	251314	Pyura vittata	(Stimpson, 1852)	251314	Pyura vittata	(Stimpson, 1852)
+Rhodosoma turcicum						Tropical West Pacific introduced	103749	Rhodosoma turcicum	(Savigny, 1816)	103749	Rhodosoma turcicum	(Savigny, 1816)
+Styela canopus	(Savigny 1816)					Tropical West Pacific introduced	103926	Styela canopus	(Savigny, 1816)	103926	Styela canopus	(Savigny, 1816)
+Styela plicata	(Lesueur 1823)			According to the Australian risk assessment  not considered high risk	1	Tropical West Pacific introduced	103936	Styela plicata	(Lesueur, 1823)	103936	Styela plicata	(Lesueur, 1823)
+Symplegma brakenhielmi	(Michaelsen 1904)					Tropical West Pacific introduced	251435	Symplegma brakenhielmi	(Michaelsen, 1904)	251435	Symplegma brakenhielmi	(Michaelsen, 1904)
+Symplegma oceania						Tropical West Pacific introduced	254020	Symplegma oceania	Tokioka, 1961	251435	Symplegma brakenhielmi	(Michaelsen, 1904)
+Symplegma		sp. A				Tropical West Pacific introduced						
+Gambusia affinis	(Baird and Girard 1853)					Tropical West Pacific introduced	159325	Gambusia affinis	(Baird & Girard, 1853)	159325	Gambusia affinis	(Baird & Girard, 1853)
+Mugil cephalus	Linnaeus 1758					Tropical West Pacific introduced	126983	Mugil cephalus	Linnaeus, 1758	126983	Mugil cephalus	Linnaeus, 1758
+Neopomacentrus violascens	(Bleeker 1848)					Tropical West Pacific introduced	278916	Neopomacentrus violascens	(Bleeker, 1848)	278916	Neopomacentrus violascens	(Bleeker, 1848)
+Omobranchus elongates	(Peters 1855)					Tropical West Pacific introduced	713638	Omobranchus elongates	(Peters, 1855)	219317	Omobranchus elongatus	(Peters, 1855)
+Oreochromis mossambicus	(Peters 1852)					Tropical West Pacific introduced	218777	Oreochromis mossambicus	(Peters, 1852)	218777	Oreochromis mossambicus	(Peters, 1852)
+Parioglossus philippinus	(Herre 1945)					Tropical West Pacific introduced	278756	Parioglossus philippinus	(Herre, 1945)	278756	Parioglossus philippinus	(Herre, 1945)
+Gobiidae		sp.				Tropical West Pacific introduced						
+Rhabdamia gracilis						Tropical West Pacific introduced	209406	Rhabdamia gracilis	(Bleeker, 1856)	209406	Rhabdamia gracilis	(Bleeker, 1856)
