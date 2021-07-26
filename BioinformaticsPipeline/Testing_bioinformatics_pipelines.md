@@ -115,7 +115,7 @@ publication from the ARMS team, analysed with the PEMA pipeline.
     includes also preprocessing steps and does not include extensive
     post-processing as the tourmaline pipeline.
 
-![snakemake-tagseq-workflow](https://github.com/shu251/tagseq-qiime2-snakemake/blob/master/scripts/snakemake-tagseq-workflow.png)
+![snakemake-tagseq-workflow](https://github.com/shu251/tagseq-qiime2-snakemake/blob/master/scripts/snakemake-tagseq-workflow.png%20%7C%20width=100)
 
 For the taxonomic assignment of these files we used the
 [MIDORI](http://www.reference-midori.info/) database downloaded in
@@ -160,6 +160,48 @@ ARMS
     ## otu_table()   OTU Table:         [ 1310 taxa and 4 samples ]
     ## sample_data() Sample Data:       [ 4 samples by 9 sample variables ]
     ## tax_table()   Taxonomy Table:    [ 1310 taxa by 7 taxonomic ranks ]
+
+``` r
+ARMS2 <- prune_taxa(taxa_sums(ARMS) > 0, ARMS)
+```
+
+It looks like the PEMA biom has all taxonomic assignments (also those
+with low confidence). I will look at the original table and filter with
+confidence, to see how it matches my other classifications.
+
+``` r
+pemafull=read.xls("../../GeneticData/DataExamples/ARMS_data/Data_Sheet_2.xls", sheet=2)
+#pemafull
+
+#Only take the first 4 samples that I am working with
+pema=pemafull[,-c(6:9)]
+#remove those OTUs that are now 0
+pema=pema[rowSums(pema[,c(2:5)])>0,]
+conf=0.2
+
+#Remove species names from those with confidence below 0.7?
+pema[pema$confidence.estimate.6<conf, "species"]=""
+#pema[pema$species!="",]
+#39 rows which are above the threshold!
+pema[pema$confidence.estimate.5<conf, "genus"]=""
+#pema[pema$genus!="",]
+#Also 39 rows
+pema[pema$confidence.estimate.4<conf, "family"]=""
+#pema[pema$family!="",]
+#41 rows
+pema[pema$confidence.estimate.3<conf, "order"]=""
+#pema[pema$order!="",]
+#46 rows
+pema[pema$confidence.estimate.2<conf, "class"]=""
+#pema[pema$class!="",]
+#67 rows
+pema[pema$confidence.estimate.1<conf, "phylum"]=""
+#pema[pema$phylum!="",]
+#128 rows
+pema[pema$confidence.estimate<conf, "superkingdom"]=""
+#pema[pema$superkingdom!="",]
+#626 rows
+```
 
 ## Tourmaline
 
@@ -214,6 +256,30 @@ taxa=as.data.frame(str_split(taxmat$taxonomy, ";", simplify =T))
 taxmat2=as.data.frame(apply(taxa,2,function(x) gsub(".*:","",x)))
 colnames(taxmat2)=c("Kingdom","Phylum","Class","Order","Family","Genus","Species","extra")
 rownames(taxmat2)=taxmat$CO1_seq_number
+```
+
+Take a look also at the anacapa tax tables at different confidence
+levels:
+
+``` r
+#70% confidence
+ana07=read.table("../bioinformatics/Anacapa/Example_data/CO1_trial/CO1_test_run_Saara_4ARMS/CO1/CO1_taxonomy_tables/Summary_by_percent_confidence/70/CO1_ASV_raw_taxonomy_70.txt", sep="\t", header=T)
+anao7=as.data.frame(str_split(ana07$sum.taxonomy, ";", simplify =T))
+rownames(anao7)=ana07$CO1_seq_number
+colnames(anao7)=c("Kingdom","Phylum","Class","Order","Family","Genus","Species")
+
+
+#50% confidence
+ana05=read.table("../bioinformatics/Anacapa/Example_data/CO1_trial/CO1_test_run_Saara_4ARMS/CO1/CO1_taxonomy_tables/Summary_by_percent_confidence/50/CO1_ASV_raw_taxonomy_50.txt", sep="\t", header=T)
+anao5=as.data.frame(str_split(ana05$sum.taxonomy, ";", simplify =T))
+rownames(anao5)=ana05$CO1_seq_number
+colnames(anao5)=c("Kingdom","Phylum","Class","Order","Family","Genus","Species")
+
+#95% confidence
+ana095=read.table("../bioinformatics/Anacapa/Example_data/CO1_trial/CO1_test_run_Saara_4ARMS/CO1/CO1_taxonomy_tables/Summary_by_percent_confidence/95/CO1_ASV_raw_taxonomy_95.txt", sep="\t", header=T)
+ana95=as.data.frame(str_split(ana095$sum.taxonomy, ";", simplify =T))
+rownames(ana95)=ana095$CO1_seq_number
+colnames(ana95)=c("Kingdom","Phylum","Class","Order","Family","Genus","Species")
 ```
 
 There are errors in the resulting taxmat: empty classifications shift
@@ -280,6 +346,11 @@ anacapa
     ## otu_table()   OTU Table:         [ 1753 taxa and 4 samples ]
     ## sample_data() Sample Data:       [ 4 samples by 9 sample variables ]
     ## tax_table()   Taxonomy Table:    [ 1753 taxa by 8 taxonomic ranks ]
+
+``` r
+#remove singletons (as there were many from the unpaired data, and I am not sure what this means)
+anacapa<- prune_taxa(taxa_sums(anacapa) > 1, anacapa)
+```
 
 ## Tagseq
 
@@ -352,7 +423,7 @@ Now we can compare the outputs of all the pipelines.
 First of all how many reads are retained in each dataset
 
 ``` r
-sampleSums=data.frame(sample_sums(anacapa),sample_sums(tourmaline),sample_sums(ARMS), sample_sums(tagseq),sample_sums(tagseq_trimmed))
+sampleSums=data.frame(sample_sums(anacapa),sample_sums(tourmaline),sample_sums(ARMS2), sample_sums(tagseq),sample_sums(tagseq_trimmed))
 sampleSums$sampleCode=rownames(sampleSums)
 ss2=pivot_longer(sampleSums,cols=-c(6), names_to="sample")
 ggplot(ss2, aes(x=sampleCode,y=value, fill=sample))+
@@ -361,7 +432,7 @@ ggplot(ss2, aes(x=sampleCode,y=value, fill=sample))+
   scale_fill_npg()
 ```
 
-![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
 The reads are much lower for the ARMS dataset, as well as the tourmaline
 dataset. With the ARMS dataset we will see that there are no
@@ -371,12 +442,16 @@ filtered because there are no preprocessing steps.
 
 ## Number of ASVs in each sample
 
+Counts of ASVs in each sample. Here I count the ASVs that are not
+singletons, because the anacapa output had many singletons analysed from
+the output of the unmerged reads.
+
 ``` r
-anacapa_asvs=colSums(otu_table(anacapa) != 0)
-tourmaline_asvs=colSums(otu_table(tourmaline) != 0)
-pema_asvs=colSums(otu_table(ARMS) != 0)
-tagseq_asvs=colSums(otu_table(tagseq) != 0)
-tagseq_trimmed_asvs=colSums(otu_table(tagseq_trimmed) != 0)
+anacapa_asvs=colSums((otu_table(anacapa) != 0 & otu_table(anacapa)!=1))
+tourmaline_asvs=colSums((otu_table(tourmaline) != 0 & otu_table(tourmaline)!=1))
+pema_asvs=colSums((otu_table(ARMS2) != 0 & otu_table(ARMS2)!=1))
+tagseq_asvs=colSums((otu_table(tagseq) != 0 & otu_table(tagseq)!=1))
+tagseq_trimmed_asvs=colSums((otu_table(tagseq_trimmed) != 0 & otu_table(tagseq_trimmed)!=1)) 
 
 asvSums=data.frame(anacapa_asvs[1:4],tourmaline_asvs[1:4],pema_asvs[1:4], tagseq_asvs, tagseq_trimmed_asvs)
 asvSums$sampleCode=rownames(asvSums)
@@ -387,7 +462,7 @@ ggplot(ss2, aes(x=sampleCode,y=value, fill=sample))+
   scale_fill_npg()
 ```
 
-![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 
 So despite the huge difference in amount of reads that were kept, it
 looks like the amount of ASVs is much more closely connected across the
@@ -402,13 +477,17 @@ How many taxa were classified at each level for each pipeline?
 #There are a few NA's that mix up the count in anacapa
 tax_table(anacapa)[is.na(tax_table(anacapa))]=""
 
-taxs=rbind(colSums(tax_table(ARMS)!=""),
+taxs=rbind(colSums(tax_table(ARMS2)!=""),
+           colSums(pema[,c("superkingdom","phylum","class","order","family","genus","species")]!=""),
            colSums(tax_table(tourmaline)!=""),
            colSums(tax_table(anacapa)[,c(1:7)]!=""),
+           colSums(anao5!=""),
+           colSums(anao7!=""),
+           colSums(ana95!=""),
            colSums(tax_table(tagseq)!=""),
            colSums(tax_table(tagseq_trimmed)!=""))
 
-rownames(taxs)=c("Pema","Tourmaline", "Anacapa","Tagseq","Tagseq_trimmed")
+rownames(taxs)=c("Pema","Pema_filt","Tourmaline", "Anacapa","Ana_filt05","Ana_filt07","Ana_filt95","Tagseq","Tagseq_trimmed")
 
 #Format and calculate also percentages of classifications:
 taxs=as.data.frame(taxs)
@@ -428,7 +507,7 @@ ggplot(tx, aes(x=Rank, y=value, fill=sample))+
   scale_fill_npg()
 ```
 
-![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
 
 Percentage of taxa classified at each taxonomic rank:
 
@@ -441,16 +520,66 @@ ggplot(pc, aes(x=Rank, y=value, fill=sample))+
   scale_fill_npg()
 ```
 
-![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
 
-We can see that for PEMA we have received only the reads that had
-classifications until Species level. For anacapa I don’t know why the
-classifications are so high, and also if they are reliable or not, I
-will have to look into the pipeline itself. We used the MIDORI library
-here as well (so not a CRUX-built reference library). Anacapa does a LCA
-process (Least common ancestor) after analysis, but if this was
-important it should be seen as a gradual decrease in classifications to
-species level.
+We can see that for PEMA the biom file contains all classifications,
+irrespective of confidence. With a confidence threshold (used for
+sklearn), the number gets much lower.
+
+For anacapa, I am not sure what the main file contains. If we look at
+the summary files though, we get to slightly lower classifications. The
+classification method used in anacapa combines alignment based
+classification with bowtie2 (100 hits), and finally Bayesian based last
+common ancestor analysis (BLCA). Even with confidence values of 95% we
+get a much higher classification (number of ASVs and % classified!) We
+used the MIDORI library here as well (so not a CRUX-built reference
+library). Anacapa does an LCA process (Least common ancestor) after
+analysis, so this could be something to look into for the others as well
+(however should not have an effect on the number of species classified.)
+
+Use the tax\_table from the filtered datasets instead of the raw one for
+taxonomic composition analysis.
+
+For anacapa 95% confidence
+
+``` r
+#taxmat=tax_table(ana095)
+taxa=as.data.frame(str_split(ana095$sum.taxonomy, ";", simplify =T))
+
+taxmat=tax_table(taxa)
+```
+
+    ## Warning in .local(object): Coercing from data.frame class to character matrix 
+    ## prior to building taxonomyTable. 
+    ## This could introduce artifacts. 
+    ## Check your taxonomyTable, or coerce to matrix manually.
+
+``` r
+colnames(taxmat)=c("Kingdom","Phylum","Class","Order","Family","Genus","Species")
+rownames(taxmat)=ana095$CO1_seq_number
+
+tax_table(anacapa)=taxmat
+```
+
+For pema confidence
+
+``` r
+rownames(pema)=pema$OTU
+taxa=pema[,c("superkingdom","phylum","class","order","family","genus","species")]
+taxmat=tax_table(taxa)
+```
+
+    ## Warning in .local(object): Coercing from data.frame class to character matrix 
+    ## prior to building taxonomyTable. 
+    ## This could introduce artifacts. 
+    ## Check your taxonomyTable, or coerce to matrix manually.
+
+``` r
+colnames(taxmat)=c("Kingdom","Phylum","Class","Order","Family","Genus","Species")
+rownames(taxmat)=rownames(taxa)
+
+tax_table(ARMS2)=taxmat
+```
 
 ## Taxonomic composition
 
@@ -461,7 +590,7 @@ Add a differentiating factor value:
 ``` r
 sample_data(anacapa)$pipeline="anacapa"
 sample_data(tourmaline)$pipeline="tourmaline"
-sample_data(ARMS)$pipeline="pema"
+sample_data(ARMS2)$pipeline="pema"
 sample_data(tagseq)$pipeline="tagseq"
 sample_data(tagseq_trimmed)$pipeline="tagseq_trimmed"
 ```
@@ -472,7 +601,7 @@ different amounts of reads:
 ``` r
 ana_rel=transform_sample_counts(anacapa, function(OTU) OTU/sum(OTU) )
 tourma_rel=transform_sample_counts(tourmaline, function(OTU) OTU/sum(OTU) )
-pema_rel=transform_sample_counts(ARMS, function(OTU) OTU/sum(OTU) )
+pema_rel=transform_sample_counts(ARMS2, function(OTU) OTU/sum(OTU) )
 tagseq_rel=transform_sample_counts(tagseq, function(OTU) OTU/sum(OTU) )
 tagseq_trimmed_rel=transform_sample_counts(tagseq_trimmed, function(OTU) OTU/sum(OTU) )
 ```
@@ -480,7 +609,7 @@ tagseq_trimmed_rel=transform_sample_counts(tagseq_trimmed, function(OTU) OTU/sum
 Format the data to a table
 
 ``` r
-ana_melt=psmelt(ana_rel); ana_melt=ana_melt[,-21]
+ana_melt=psmelt(ana_rel)#; ana_melt=ana_melt[,-21]
 tourma_melt=psmelt(tourma_rel)
 tagseq_melt=psmelt(tagseq_rel)
 pema_melt=psmelt(pema_rel)
@@ -498,14 +627,17 @@ df_fig$Abundance=as.numeric(df_fig$Abundance)
 Comparison at Phylum level:
 
 ``` r
-ggplot(df_fig, aes(x=Phylum, y=Abundance, fill=Phylum))+
+df_fig %>% 
+  group_by(Phylum) %>%
+  filter(Abundance > 0.01) %>%
+  ggplot(aes(Phylum, y=Abundance, fill=Phylum))+
   geom_bar(stat='identity')+
   theme_classic()+
   theme(axis.text.x = element_text(angle = -90, hjust = 0), legend.position = 'none')+
-  facet_grid(pipeline~Sample)
+  facet_grid(pipeline~Sample, scales='free_x')
 ```
 
-![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
+![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->
 
 Comparison at Class level:
 
@@ -522,7 +654,7 @@ df_fig %>%
   facet_grid(pipeline~Sample, scales='free_x')
 ```
 
-![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->
+![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
 Comparison at Order level:
 
 ``` r
@@ -536,7 +668,7 @@ df_fig %>%
   facet_grid(pipeline~Sample, scales='free_x')
 ```
 
-![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-21-1.png)<!-- -->
 
 Comparison at Family level:
 
@@ -551,7 +683,7 @@ df_fig %>%
   facet_grid(pipeline~Sample, scales='free_x')
 ```
 
-![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
+![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-22-1.png)<!-- -->
 
 Comparison at Genus level:
 
@@ -566,7 +698,7 @@ df_fig %>%
   facet_grid(pipeline~Sample, scales='free_x')
 ```
 
-![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->
+![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-23-1.png)<!-- -->
 
 Comparison at Species level:
 
@@ -581,4 +713,4 @@ df_fig %>%
   facet_grid(pipeline~Sample, scales='free_x')
 ```
 
-![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
+![](Testing_bioinformatics_pipelines_files/figure-gfm/unnamed-chunk-24-1.png)<!-- -->

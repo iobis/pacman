@@ -25,6 +25,7 @@ Table of Contents
     - [6.5. VSEARCH](#vsearch)
     - [6.6. hybrid](#hybrid)
   * [7. Data output for viewing](#data-output-for-viewing)
+  * [8. Taxonomic classification of results](#taxonomic-classification-of-results)
 
 [When comparing different publicly available bioinformatics pipelines](https://github.com/iobis/pacman/blob/main/BioinformaticsPipeline/Testing_bioinformatics_pipelines.md) on 4 samples of the ARMS project, we arrived at different results in terms of the number of reads and ASVs, as well as taxonomic assignments. To understand why this was happening, we manually compared different parameters used in the bioinformatics pipelines at each step.
 
@@ -642,25 +643,72 @@ otumat=otumat$data
 
 taxmat_bayes_MIDORI=read_qza("./manual_run/tax_assignment/cons_blast/taxonomy_bayes_MIDORI.qza")
 taxmat_bayes_MIDORI=taxmat_bayes_MIDORI$data
+
 taxmat_blast_MIDORI=read_qza("./manual_run/tax_assignment/cons_blast_097/taxonomy_blast_097_MIDORI.qza")
 taxmat_blast_MIDORI=taxmat_blast_MIDORI$data
+
 taxmat_vsearch_MIDORI=read_qza("./manual_run/tax_assignment/taxonomy_vsearch_MIDORI.qza")
 taxmat_vsearch_MIDORI=taxmat_vsearch_MIDORI$data
+
+taxmat_blca_MIDORI=read.table("./manual_run/tax_assignment/bowtie2/trial2/MIDORI_blca_tax_table.txt", header = T, sep = '\t', fill = T)
+taxmat_blca_MIDORI=taxmat_blca_MIDORI[order(taxmat_blca_MIDORI$rowname),]
+#Here I need to add the featureIDs as needed..
+ids=read_lines("./manual_run/tax_assignment/bowtie2/rejected_fastas.txt")
+otumat2 = otumat[!row.names(otumat)%in%ids,]
+taxmat_blca_MIDORI$Feature.ID=rownames(otumat2)
+#And reformat to match the others
+colnames(taxmat_blca_MIDORI)[2]="Taxon"
+
+
+taxmat_blcablast_MIDORI=read.table("./manual_run/tax_assignment/blca/MIDORI_blastBlca_corr.txt", header = T, sep = '\t', fill = T)
+taxmat_blcablast_MIDORI=taxmat_blcablast_MIDORI[order(taxmat_blcablast_MIDORI$rowname),]
+#Separate and choose the wanted cutoff
+sep=separate(taxmat_blcablast_MIDORI, 'taxonomy', into=c('Kingdom', 'k_confidence', 'Phylum', 'p_confidence', 'Class', 'c_confidence', 'Order', 'o_confidence', 'Family', 'f_confidence', 'Genus', 'g_confidence', 'Species', 's_confidence'), sep=";", fill='right')
+```
+
+    ## Warning: Expected 14 pieces. Additional pieces discarded in 245 rows [1, 12, 13,
+    ## 15, 16, 17, 23, 25, 28, 30, 31, 32, 36, 40, 41, 42, 44, 45, 48, 49, ...].
+
+``` r
+#How many species classified? --> 245 without using cutoff!
+sum(!is.na(sep$Phylum))
+```
+
+    ## [1] 245
+
+``` r
+#And reformat to match the others
+colnames(taxmat_blca_MIDORI)[2]="Taxon"
+
+taxmat_blca100_MIDORI=read.table("./manual_run/tax_assignment/bowtie2/trial2/MIDORI_blca_tax_table_100.txt", header = T, sep = '\t', fill = T)
+taxmat_blca100_MIDORI=taxmat_blca100_MIDORI[order(taxmat_blca100_MIDORI$rowname),]
+#Here I need to add the featureIDs as needed..
+ids=read_lines("./manual_run/tax_assignment/bowtie2/rejected_fastas.txt")
+otumat2 = otumat[!row.names(otumat)%in%ids,]
+taxmat_blca100_MIDORI$Feature.ID=rownames(otumat2)
+#And reformat to match the others
+colnames(taxmat_blca100_MIDORI)[2]="Taxon"
+
 taxmat_blast_BOLD=read_qza("./manual_run/tax_assignment/cons_blast_097/taxonomy_blast_097_BOLD.qza")
 taxmat_blast_BOLD=taxmat_blast_BOLD$data
+
 taxmat_vsearch_BOLD=read_qza("./manual_run/tax_assignment/taxonomy_vsearch_BOLD.qza")
 taxmat_vsearch_BOLD=taxmat_vsearch_BOLD$data
+
 taxmat_blast_MARES=read_qza("./manual_run/tax_assignment/cons_blast_097/taxonomy_MARES_097.qza")
 taxmat_blast_MARES=taxmat_blast_MARES$data
+
 taxmat_bayes_MARES=read_qza("./manual_run/tax_assignment/taxonomy_bayes_MARES.qza")
 taxmat_bayes_MARES=taxmat_bayes_MARES$data
+
 taxmat_vsearch_MARES=read_qza("./manual_run/tax_assignment/taxonomy_vsearch_MARES.qza")
 taxmat_vsearch_MARES=taxmat_vsearch_MARES$data
+
 taxmat_hybrid_MARES=read_qza("./manual_run/tax_assignment/taxonomy_hybrid_MARES.qza")
 taxmat_hybrid_MARES=taxmat_hybrid_MARES$data
 
 #List all taxmats in one object:
-taxmats=list(taxmat_bayes_MIDORI, taxmat_blast_MIDORI, taxmat_vsearch_MIDORI, taxmat_blast_BOLD, taxmat_vsearch_BOLD, taxmat_blast_MARES, taxmat_bayes_MARES, taxmat_vsearch_MARES, taxmat_hybrid_MARES)
+taxmats=list(taxmat_bayes_MIDORI, taxmat_blast_MIDORI, taxmat_vsearch_MIDORI, taxmat_blca_MIDORI, taxmat_blca100_MIDORI, taxmat_blast_BOLD, taxmat_vsearch_BOLD, taxmat_blast_MARES, taxmat_bayes_MARES, taxmat_vsearch_MARES, taxmat_hybrid_MARES)
 ```
 
 ### 8.2. Format datasets
@@ -677,7 +725,6 @@ return(as.data.frame(taxmat_mod))
 }
 
 taxmats_mod=lapply(taxmats, format_tax)
-
 #Get sample data with the right info from the arms dataset
 sammat=sample_data[c(1:4),]
 
@@ -703,7 +750,7 @@ PS=lapply(taxmats_mod, make_phyloseq, otumat, sammat)
 ``` r
 taxs=lapply(taxmats_mod, function(x) {colSums(x!="")})
 df_taxs <- data.frame(matrix(unlist(taxs), nrow=length(taxs), byrow=TRUE))
-rownames(df_taxs)=c('bayes_MIDORI', 'blast_MIDORI', 'vsearch_MIDORI', 'blast_BOLD', 'vsearch_BOLD', 'blast_MARES', 'bayes_MARES', 'vsearch_MARES', 'hybrid_MARES')
+rownames(df_taxs)=c('bayes_MIDORI', 'blast_MIDORI', 'vsearch_MIDORI', 'blca_MIDORI','blca100_MIDORI','blast_BOLD', 'vsearch_BOLD', 'blast_MARES', 'bayes_MARES', 'vsearch_MARES', 'hybrid_MARES')
 colnames(df_taxs)=names(taxs[[1]])
 
 #Percentages:
@@ -714,6 +761,8 @@ df_taxs
     ## bayes_MIDORI      1494    727   633   281    268   260     245
     ## blast_MIDORI      1494    189   189   188    188   188     178
     ## vsearch_MIDORI    1494    188   188   187    187   187     178
+    ## blca_MIDORI        972    627   566   521    465   442     392
+    ## blca100_MIDORI     851    528   487   446    402   381     337
     ## blast_BOLD        1494    206   206   200    198   197     183
     ## vsearch_BOLD      1494    205   205   200    197   196     182
     ## blast_MARES       1494    207   205   204    204   203     201
@@ -722,13 +771,15 @@ df_taxs
     ## hybrid_MARES      1494    373   354   327    321   317     316
 
 ``` r
-df_taxs/1494
+df_taxs/df_taxs[,1]
 ```
 
     ##                Kingdom    Phylum     Class     Order    Family     Genus
     ## bayes_MIDORI         1 0.4866131 0.4236948 0.1880857 0.1793842 0.1740295
     ## blast_MIDORI         1 0.1265060 0.1265060 0.1258367 0.1258367 0.1258367
     ## vsearch_MIDORI       1 0.1258367 0.1258367 0.1251673 0.1251673 0.1251673
+    ## blca_MIDORI          1 0.6450617 0.5823045 0.5360082 0.4783951 0.4547325
+    ## blca100_MIDORI       1 0.6204465 0.5722679 0.5240893 0.4723854 0.4477086
     ## blast_BOLD           1 0.1378849 0.1378849 0.1338688 0.1325301 0.1318608
     ## vsearch_BOLD         1 0.1372155 0.1372155 0.1338688 0.1318608 0.1311914
     ## blast_MARES          1 0.1385542 0.1372155 0.1365462 0.1365462 0.1358768
@@ -739,6 +790,8 @@ df_taxs/1494
     ## bayes_MIDORI   0.1639893
     ## blast_MIDORI   0.1191432
     ## vsearch_MIDORI 0.1191432
+    ## blca_MIDORI    0.4032922
+    ## blca100_MIDORI 0.3960047
     ## blast_BOLD     0.1224900
     ## vsearch_BOLD   0.1218206
     ## blast_MARES    0.1345382
@@ -749,18 +802,20 @@ df_taxs/1494
 ### 8.4 Collect data for building the figure
 
 ``` r
-rownames(df_taxs)=c('bayes_MIDORI', 'blast_MIDORI', 'vsearch_MIDORI', 'blast_BOLD', 'vsearch_BOLD', 'blast_MARES', 'bayes_MARES', 'vsearch_MARES', 'hybrid_MARES')
+rownames(df_taxs)=c('bayes_MIDORI', 'blast_MIDORI', 'vsearch_MIDORI','blca_MIDORI', 'blca100_MIDORI', 'blast_BOLD', 'vsearch_BOLD', 'blast_MARES', 'bayes_MARES', 'vsearch_MARES', 'hybrid_MARES')
 
 PS_melt=lapply(PS, psmelt)
 PS_melt[[1]]$db="MIDORI";PS_melt[[1]]$method="bayes"
 PS_melt[[2]]$db="MIDORI";PS_melt[[2]]$method="blast"
 PS_melt[[3]]$db="MIDORI";PS_melt[[3]]$method="vsearch"
-PS_melt[[4]]$db="BOLD";PS_melt[[4]]$method="blast"
-PS_melt[[5]]$db="BOLD";PS_melt[[5]]$method="vsearch"
-PS_melt[[6]]$db="MARES";PS_melt[[6]]$method="blast"
-PS_melt[[7]]$db="MARES";PS_melt[[7]]$method="bayes"
-PS_melt[[8]]$db="MARES";PS_melt[[8]]$method="vsearch"
-PS_melt[[9]]$db="MARES";PS_melt[[9]]$method="hybrid"
+PS_melt[[4]]$db="MIDORI";PS_melt[[4]]$method="blca"
+PS_melt[[5]]$db="MIDORI";PS_melt[[5]]$method="blca100"
+PS_melt[[6]]$db="BOLD";PS_melt[[6]]$method="blast"
+PS_melt[[7]]$db="BOLD";PS_melt[[7]]$method="vsearch"
+PS_melt[[8]]$db="MARES";PS_melt[[8]]$method="blast"
+PS_melt[[9]]$db="MARES";PS_melt[[9]]$method="bayes"
+PS_melt[[10]]$db="MARES";PS_melt[[10]]$method="vsearch"
+PS_melt[[11]]$db="MARES";PS_melt[[11]]$method="hybrid"
 
 #All combined
 df_fig = do.call(rbind, PS_melt)
@@ -855,3 +910,13 @@ df_fig %>%
 ```
 
 ![](Testing_bioinformatics_parameters_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+
+There is a new species found only in the blca ‘culicoides jumineri’ and
+‘Calyptotheca immersa’ and ‘Monocorophium insidiosum’.
+
+Biggest difference in results is at Family and Genus level. While
+Calypthoteca and Culicoides are effecting this, so is Pinnularia? Check
+these results as well.
+
+Check manually what blast says about these sequences, and what the other
+methods also say?
